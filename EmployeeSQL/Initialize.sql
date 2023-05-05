@@ -29,7 +29,7 @@ CREATE TABLE Employees(
 	birth_date Date,
 	first_name VARCHAR(20),
 	last_name VARCHAR(20),
-	sex VARCHAR(1),
+	sex CHAR(1),
 	hire_date DATE,
 	PRIMARY KEY (employee_number),
 	FOREIGN KEY (employee_title_id) REFERENCES Titles(title_id)
